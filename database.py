@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import os
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
@@ -22,7 +22,7 @@ def get_db():
         yield db
     finally:
         db.close()
-=======
+
 import os
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
@@ -46,4 +46,4 @@ def get_db():
         yield db
     finally:
         db.close()
->>>>>>> 5fa64b90cb376dbbbbf9b7d139e565d2b14f5722
+

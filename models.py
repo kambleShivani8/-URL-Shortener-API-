@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from sqlalchemy import Column, String, Text, Integer, DateTime, func
 from database import Base
 
@@ -10,7 +10,7 @@ class URL(Base):
     clicks = Column(Integer, default=0, nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
-=======
+
 from sqlalchemy import Column, String, Text, Integer, DateTime, func
 from database import Base
 
@@ -22,4 +22,4 @@ class URL(Base):
     clicks = Column(Integer, default=0, nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
->>>>>>> 5fa64b90cb376dbbbbf9b7d139e565d2b14f5722
+
